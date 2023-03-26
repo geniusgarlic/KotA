@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        KING OF THE ANDEANS
+        <img src='/images/south-america-outline.svg' alt='global_map' style={{ width: '60%', height: '60%', position: 'relative', top: '0px', left: '-150px'}}/>
       </header>
+      
     </div>
   );
 }
