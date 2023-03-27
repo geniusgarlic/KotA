@@ -5,6 +5,7 @@
 .App-header {
   background-color: #81dcf3;
   min-height: 175vh;
+  min-width: 150vh;
   display: flex;
   flex-direction: column;
   align-items: center;
