@@ -11,3 +11,29 @@
   align-items: center;
   justify-content: center;
 }
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(241, 234, 210);
+  border: 5px solid rgb(153, 106, 4);
+  padding: 20px;
+  max-width: calc(100vw - 150px);
+  max-height: calc(100vh - 150px);
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
